@@ -1,4 +1,4 @@
-# 🌿 Bloc Conseil Naturel Médical
+# 🌿 Blog Conseil Naturel Médical
 
 [![Licence](https://img.shields.io/badge/licence-MIT-green.svg)](LICENSE)
 [![React](https://img.shields.io/badge/React-17.0.2-blue?logo=react)](https://reactjs.org/)
@@ -9,7 +9,7 @@
 
 ## 🌱 Description
 
-Bloc Conseil Naturel Médical est une application web intuitive permettant aux utilisateurs de bénéficier de conseils naturels pour la santé et le bien-être.
+Blog Conseil Naturel Médical est une application web intuitive permettant aux utilisateurs de bénéficier de conseils naturels pour la santé et le bien-être.
 
 - Interface simple et responsive
 - Formulaire d’inscription sécurisé
@@ -31,7 +31,7 @@ Bloc Conseil Naturel Médical est une application web intuitive permettant aux u
 ## ⚙️ Installation et lancement
 
 ```bash
-git clone https://github.com/tonpseudo/bloc-conseil-naturel-medical.git
-cd bloc-conseil-naturel-medical
+git clone https://github.com/Abdelhafidraoufjr/frontendReactjs-middleware-
+cd frontendReactjs-middleware-
 npm install
 npm run dev
