@@ -33,15 +33,12 @@ const Register = () => {
     return (
         <div className={`${darkMode ? 'dark' : ''}`}>
             <div className="flex min-h-screen bg-white dark:bg-gray-900">
-                {/* Partie gauche, cachée en mobile */}
                 <div
                     className="hidden lg:flex w-1/2 items-center justify-center text-white bg-cover bg-right"
                     style={{ backgroundImage: `url(${bgImage})` }}
                 >
                     <h1 className="text-4xl font-bold text-center px-8">Bienvenue sur notre plateforme</h1>
                 </div>
-
-                {/* Partie droite */}
                 <div className="w-full lg:w-1/2 flex items-center justify-center bg-white dark:bg-gray-900 px-6">
                     <div className="w-full max-w-4xl py-12 flex flex-col items-center">
                         <div className="sm:w-full sm:max-w-sm text-center">

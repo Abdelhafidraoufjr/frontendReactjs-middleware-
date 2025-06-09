@@ -7,16 +7,13 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faKey } from '@fortawesome/free-solid-svg-icons';
 
 const Login = () => {
-  // états formulaire utilisateur
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
-  // états formulaire admin
   const [showAdminForm, setShowAdminForm] = useState(false);
   const [adminPassword, setAdminPassword] = useState('');
   const [message, setMessage] = useState('');
 
-  // mode sombre / clair
   const [darkMode, setDarkMode] = useState(false);
 
   const handleAdminSubmit = (e) => {
@@ -124,7 +121,6 @@ const Login = () => {
                   />
                 </div>
               </div>
-
               <div>
                 <button
                   type="submit"
