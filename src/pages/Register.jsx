@@ -14,7 +14,6 @@ const Register = () => {
     });
 
     const [darkMode, setDarkMode] = useState(false);
-
     const handleChange = (e) => {
         setForm({ ...form, [e.target.name]: e.target.value });
     };
