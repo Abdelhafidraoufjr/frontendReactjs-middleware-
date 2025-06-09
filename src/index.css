@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/earlyaccess/amiri.css);
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -9,4 +11,14 @@ body {
 
 .dark body {
   @apply bg-gray-900 text-white;
+}
+
+.text-center{
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+.soustitre{
+  font-family: 'Amiri', serif;
 }

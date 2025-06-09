@@ -1,9 +1,13 @@
-const Home = () => {
+import "react";
+import HeroSection from "../components/HeroSection";
+
+
+function Home() {
   return (
-    <div className="text-center mt-10">
-      <h1 className="text-3xl font-bold">Bienvenue sur l'application !</h1>
-    </div>
+    <>
+      <HeroSection />
+    </>
   );
-};
+}
 
 export default Home;
