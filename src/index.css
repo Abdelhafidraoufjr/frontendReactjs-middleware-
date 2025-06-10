@@ -22,3 +22,6 @@ body {
 .soustitre{
   font-family: 'Amiri', serif;
 }
+html {
+  scroll-behavior: smooth;
+}

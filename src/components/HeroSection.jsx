@@ -9,8 +9,9 @@ import bg from '../assets/bg.jpg'
 
 const navigation = [
     { name: 'Accueil', href: '/' },
-    { name: 'Actualités-Blog', href: '/actualiteBlog' },
-    { name: 'À propos', href: '/apropo' },
+    { name: 'Actualités-Blog', href: '#actualite-blog' },
+    { name: 'À propos', href: '#apropo' },
+    { name: 'FAQs', href: '#faqs'},
     { name: 'Contact', href: '/contact' },
 ]
 
@@ -18,7 +19,7 @@ export default function Example() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
     return (
-        <div className="relative bg-white overflow-hidden"style={{ zoom: 1.1 }}>
+        <div className="relative bg-white overflow-hidden" style={{ zoom: 1.1 }}>
             <div
                 className="absolute inset-0 bg-cover bg-center filter blur-sm"
                 style={{
@@ -118,7 +119,7 @@ export default function Example() {
                     <div className="hidden sm:mb-8 sm:flex sm:justify-center">
                         <div className="relative rounded-full px-3 py-1 text-sm/6 text-white ring-1 ring-white/50 hover:ring-white/70 backdrop-blur-md bg-black/10">
                             Découvrez nos nouvelles recettes naturelles et conseils bien-être.{' '}
-                            <a href="/actualiteBlog" className="font-semibold text-red-500 hover:text-red-300">
+                            <a href="#actualite-blog" className="font-semibold text-red-500 hover:text-red-300">
                                 <span aria-hidden="true" className="absolute inset-0" />
                                 Lire plus <span aria-hidden="true">&rarr;</span>
                             </a>
@@ -133,11 +134,11 @@ export default function Example() {
                             Savoirs Ancestraux & Remèdes Naturels pour une Vie Saine
                         </h1>
                         <p className="mt-10 text-pretty text-lg font-medium text-black">
-                            Découvrez des remèdes naturels transmis de génération en génération.<br />
+                            Découvrez des remèdes naturels transmis de génération en génération,<br />
                             Vivez en harmonie avec votre corps et la nature.<br /><br />
                             <p className='soustitre'>اكتشف العلاجات الطبيعية المتوارثة عبر الأجيال
-                             عش في تناغم مع جسدك ومع الطبيعة
-                        </p>
+                                <br/>عش في تناغم مع جسدك ومع الطبيعة
+                            </p>
                         </p>
                         <div className="mt-8 flex items-center justify-center gap-x-6">
                             <a
