@@ -3,6 +3,7 @@ import HeroSection from "../components/HeroSection";
 import ActBlogSection from "../components/BlogactSection";
 import ApropoSection from "../components/ApropoSection";
 import Faqs from "../components/FaqsSection"
+import Footer from "../components/Footer"
 
 function Home() {
     return (
@@ -16,6 +17,9 @@ function Home() {
             </div>
             <div id="faqs">
                 <Faqs />
+            </div>
+            <div id="footer">
+                <Footer />
             </div>
         </>
     );
